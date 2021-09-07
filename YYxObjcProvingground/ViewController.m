@@ -6,7 +6,8 @@
 //
 
 #import "ViewController.h"
-
+#import "JsonDataManager.h"
+#import "ManResponse.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
+    
+   
 }
 
 

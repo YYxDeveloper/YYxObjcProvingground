@@ -3,13 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		08A04861EB65C41EF2A904F7 /* Pods_YYxObjcProvingground_YYxObjcProvinggroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681AF566F00D7C414B2E6A87 /* Pods_YYxObjcProvingground_YYxObjcProvinggroundUITests.framework */; };
 		254BDCEBA801FD657A4C1532 /* Pods_YYxObjcProvingground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BD175D3E8E44D1CD9D6FD4 /* Pods_YYxObjcProvingground.framework */; };
 		C4B1264B5574A61FFAFB061A /* Pods_YYxObjcProvinggroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975EA5F993979F2CA2C110F1 /* Pods_YYxObjcProvinggroundTests.framework */; };
+		D2B3C6B526E72E2C0009F2A1 /* JsonDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6B326E72E2C0009F2A1 /* JsonDataManager.m */; };
+		D2B3C6B626E72E2C0009F2A1 /* JsonDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6B326E72E2C0009F2A1 /* JsonDataManager.m */; };
+		D2B3C6B726E72E2C0009F2A1 /* JsonDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6B326E72E2C0009F2A1 /* JsonDataManager.m */; };
+		D2B3C6CC26E72F650009F2A1 /* friend1.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BD26E72F650009F2A1 /* friend1.json */; };
+		D2B3C6CD26E72F650009F2A1 /* friend1.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BD26E72F650009F2A1 /* friend1.json */; };
+		D2B3C6CE26E72F650009F2A1 /* friend1.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BD26E72F650009F2A1 /* friend1.json */; };
+		D2B3C6CF26E72F650009F2A1 /* man.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BE26E72F650009F2A1 /* man.json */; };
+		D2B3C6D026E72F650009F2A1 /* man.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BE26E72F650009F2A1 /* man.json */; };
+		D2B3C6D126E72F650009F2A1 /* man.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BE26E72F650009F2A1 /* man.json */; };
+		D2B3C6D226E72F650009F2A1 /* friend4.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BF26E72F650009F2A1 /* friend4.json */; };
+		D2B3C6D326E72F650009F2A1 /* friend4.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BF26E72F650009F2A1 /* friend4.json */; };
+		D2B3C6D426E72F650009F2A1 /* friend4.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6BF26E72F650009F2A1 /* friend4.json */; };
+		D2B3C6D526E72F650009F2A1 /* friend3.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C026E72F650009F2A1 /* friend3.json */; };
+		D2B3C6D626E72F650009F2A1 /* friend3.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C026E72F650009F2A1 /* friend3.json */; };
+		D2B3C6D726E72F650009F2A1 /* friend3.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C026E72F650009F2A1 /* friend3.json */; };
+		D2B3C6D826E72F650009F2A1 /* friend2.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C126E72F650009F2A1 /* friend2.json */; };
+		D2B3C6D926E72F650009F2A1 /* friend2.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C126E72F650009F2A1 /* friend2.json */; };
+		D2B3C6DA26E72F650009F2A1 /* friend2.json in Resources */ = {isa = PBXBuildFile; fileRef = D2B3C6C126E72F650009F2A1 /* friend2.json */; };
+		D2B3C6DB26E72F650009F2A1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C326E72F650009F2A1 /* Man.m */; };
+		D2B3C6DC26E72F650009F2A1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C326E72F650009F2A1 /* Man.m */; };
+		D2B3C6DD26E72F650009F2A1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C326E72F650009F2A1 /* Man.m */; };
+		D2B3C6DE26E72F650009F2A1 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C926E72F650009F2A1 /* Friend.m */; };
+		D2B3C6DF26E72F650009F2A1 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C926E72F650009F2A1 /* Friend.m */; };
+		D2B3C6E026E72F650009F2A1 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6C926E72F650009F2A1 /* Friend.m */; };
+		D2B3C6E126E72F650009F2A1 /* ManResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CA26E72F650009F2A1 /* ManResponse.m */; };
+		D2B3C6E226E72F650009F2A1 /* ManResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CA26E72F650009F2A1 /* ManResponse.m */; };
+		D2B3C6E326E72F650009F2A1 /* ManResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CA26E72F650009F2A1 /* ManResponse.m */; };
+		D2B3C6E426E72F650009F2A1 /* FriendResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CB26E72F650009F2A1 /* FriendResponse.m */; };
+		D2B3C6E526E72F650009F2A1 /* FriendResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CB26E72F650009F2A1 /* FriendResponse.m */; };
+		D2B3C6E626E72F650009F2A1 /* FriendResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3C6CB26E72F650009F2A1 /* FriendResponse.m */; };
 		D2DE089226E3B486006096A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE089126E3B486006096A2 /* AppDelegate.m */; };
 		D2DE089526E3B486006096A2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE089426E3B486006096A2 /* SceneDelegate.m */; };
 		D2DE089826E3B486006096A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE089726E3B486006096A2 /* ViewController.m */; };
@@ -47,6 +77,22 @@
 		9B1EBC33442876247369433F /* Pods-YYxObjcProvinggroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYxObjcProvinggroundTests.debug.xcconfig"; path = "Target Support Files/Pods-YYxObjcProvinggroundTests/Pods-YYxObjcProvinggroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9BD175D3E8E44D1CD9D6FD4 /* Pods_YYxObjcProvingground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYxObjcProvingground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44BCC71E23B733F40BE20E5 /* Pods-YYxObjcProvinggroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYxObjcProvinggroundTests.release.xcconfig"; path = "Target Support Files/Pods-YYxObjcProvinggroundTests/Pods-YYxObjcProvinggroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B3C6B326E72E2C0009F2A1 /* JsonDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JsonDataManager.m; path = CathaybkTestObjCProject/JsonDataManager.m; sourceTree = SOURCE_ROOT; };
+		D2B3C6B426E72E2C0009F2A1 /* JsonDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JsonDataManager.h; path = CathaybkTestObjCProject/JsonDataManager.h; sourceTree = SOURCE_ROOT; };
+		D2B3C6BD26E72F650009F2A1 /* friend1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friend1.json; sourceTree = "<group>"; };
+		D2B3C6BE26E72F650009F2A1 /* man.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = man.json; sourceTree = "<group>"; };
+		D2B3C6BF26E72F650009F2A1 /* friend4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friend4.json; sourceTree = "<group>"; };
+		D2B3C6C026E72F650009F2A1 /* friend3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friend3.json; sourceTree = "<group>"; };
+		D2B3C6C126E72F650009F2A1 /* friend2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friend2.json; sourceTree = "<group>"; };
+		D2B3C6C326E72F650009F2A1 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		D2B3C6C426E72F650009F2A1 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		D2B3C6C526E72F650009F2A1 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		D2B3C6C626E72F650009F2A1 /* ManResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManResponse.h; sourceTree = "<group>"; };
+		D2B3C6C726E72F650009F2A1 /* FriendResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendResponse.h; sourceTree = "<group>"; };
+		D2B3C6C826E72F650009F2A1 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		D2B3C6C926E72F650009F2A1 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		D2B3C6CA26E72F650009F2A1 /* ManResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManResponse.m; sourceTree = "<group>"; };
+		D2B3C6CB26E72F650009F2A1 /* FriendResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendResponse.m; sourceTree = "<group>"; };
 		D2DE088D26E3B486006096A2 /* YYxObjcProvingground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYxObjcProvingground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DE089026E3B486006096A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2DE089126E3B486006096A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,7 +152,6 @@
 				9B1EBC33442876247369433F /* Pods-YYxObjcProvinggroundTests.debug.xcconfig */,
 				C44BCC71E23B733F40BE20E5 /* Pods-YYxObjcProvinggroundTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +164,47 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		D2B3C6AA26E72DCA0009F2A1 /* CathaybkTestObjCProject */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3C6BC26E72F650009F2A1 /* Datas */,
+				D2B3C6C226E72F650009F2A1 /* Models */,
+				D2B3C6B426E72E2C0009F2A1 /* JsonDataManager.h */,
+				D2B3C6B326E72E2C0009F2A1 /* JsonDataManager.m */,
+			);
+			path = CathaybkTestObjCProject;
+			sourceTree = "<group>";
+		};
+		D2B3C6BC26E72F650009F2A1 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3C6BD26E72F650009F2A1 /* friend1.json */,
+				D2B3C6BE26E72F650009F2A1 /* man.json */,
+				D2B3C6BF26E72F650009F2A1 /* friend4.json */,
+				D2B3C6C026E72F650009F2A1 /* friend3.json */,
+				D2B3C6C126E72F650009F2A1 /* friend2.json */,
+			);
+			name = Datas;
+			path = CathaybkTestObjCProject/Datas;
+			sourceTree = SOURCE_ROOT;
+		};
+		D2B3C6C226E72F650009F2A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3C6C326E72F650009F2A1 /* Man.m */,
+				D2B3C6C426E72F650009F2A1 /* Friend.h */,
+				D2B3C6C526E72F650009F2A1 /* Response.h */,
+				D2B3C6C626E72F650009F2A1 /* ManResponse.h */,
+				D2B3C6C726E72F650009F2A1 /* FriendResponse.h */,
+				D2B3C6C826E72F650009F2A1 /* Man.h */,
+				D2B3C6C926E72F650009F2A1 /* Friend.m */,
+				D2B3C6CA26E72F650009F2A1 /* ManResponse.m */,
+				D2B3C6CB26E72F650009F2A1 /* FriendResponse.m */,
+			);
+			name = Models;
+			path = CathaybkTestObjCProject/Models;
+			sourceTree = SOURCE_ROOT;
 		};
 		D2DE088426E3B486006096A2 = {
 			isa = PBXGroup;
@@ -145,6 +231,7 @@
 		D2DE088F26E3B486006096A2 /* YYxObjcProvingground */ = {
 			isa = PBXGroup;
 			children = (
+				D2B3C6AA26E72DCA0009F2A1 /* CathaybkTestObjCProject */,
 				D2DE089026E3B486006096A2 /* AppDelegate.h */,
 				D2DE089126E3B486006096A2 /* AppDelegate.m */,
 				D2DE089326E3B486006096A2 /* SceneDelegate.h */,
@@ -287,7 +374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DE08A026E3B489006096A2 /* LaunchScreen.storyboard in Resources */,
+				D2B3C6CC26E72F650009F2A1 /* friend1.json in Resources */,
+				D2B3C6D226E72F650009F2A1 /* friend4.json in Resources */,
 				D2DE089D26E3B489006096A2 /* Assets.xcassets in Resources */,
+				D2B3C6CF26E72F650009F2A1 /* man.json in Resources */,
+				D2B3C6D526E72F650009F2A1 /* friend3.json in Resources */,
+				D2B3C6D826E72F650009F2A1 /* friend2.json in Resources */,
 				D2DE089B26E3B486006096A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +388,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B3C6D026E72F650009F2A1 /* man.json in Resources */,
+				D2B3C6CD26E72F650009F2A1 /* friend1.json in Resources */,
+				D2B3C6D326E72F650009F2A1 /* friend4.json in Resources */,
+				D2B3C6D626E72F650009F2A1 /* friend3.json in Resources */,
+				D2B3C6D926E72F650009F2A1 /* friend2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +400,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B3C6D126E72F650009F2A1 /* man.json in Resources */,
+				D2B3C6CE26E72F650009F2A1 /* friend1.json in Resources */,
+				D2B3C6D426E72F650009F2A1 /* friend4.json in Resources */,
+				D2B3C6D726E72F650009F2A1 /* friend3.json in Resources */,
+				D2B3C6DA26E72F650009F2A1 /* friend2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B3C6DB26E72F650009F2A1 /* Man.m in Sources */,
+				D2B3C6DE26E72F650009F2A1 /* Friend.m in Sources */,
+				D2B3C6B526E72E2C0009F2A1 /* JsonDataManager.m in Sources */,
+				D2B3C6E126E72F650009F2A1 /* ManResponse.m in Sources */,
 				D2DE089826E3B486006096A2 /* ViewController.m in Sources */,
 				D2DE089226E3B486006096A2 /* AppDelegate.m in Sources */,
 				D2DE08A326E3B489006096A2 /* main.m in Sources */,
 				D2DE089526E3B486006096A2 /* SceneDelegate.m in Sources */,
+				D2B3C6E426E72F650009F2A1 /* FriendResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +551,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B3C6DC26E72F650009F2A1 /* Man.m in Sources */,
 				D2DE08AD26E3B489006096A2 /* YYxObjcProvinggroundTests.m in Sources */,
+				D2B3C6E526E72F650009F2A1 /* FriendResponse.m in Sources */,
+				D2B3C6B626E72E2C0009F2A1 /* JsonDataManager.m in Sources */,
+				D2B3C6DF26E72F650009F2A1 /* Friend.m in Sources */,
+				D2B3C6E226E72F650009F2A1 /* ManResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +564,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B3C6DD26E72F650009F2A1 /* Man.m in Sources */,
 				D2DE08B826E3B489006096A2 /* YYxObjcProvinggroundUITests.m in Sources */,
+				D2B3C6E626E72F650009F2A1 /* FriendResponse.m in Sources */,
+				D2B3C6B726E72E2C0009F2A1 /* JsonDataManager.m in Sources */,
+				D2B3C6E026E72F650009F2A1 /* Friend.m in Sources */,
+				D2B3C6E326E72F650009F2A1 /* ManResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
