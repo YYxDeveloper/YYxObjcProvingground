@@ -19,7 +19,17 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     
-   
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"man" ofType:@"json"];
+    NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"%@", content);
+
+    JsonDataManager * aa = [[JsonDataManager alloc] initWithJson];
+//    NSLog(aa.friend1Key);
+
+    ManResponse *cc = aa.getManModel;
+
+    NSArray<Friend *>* gg = aa.getFriend1Model;
+    
 }
 
 
