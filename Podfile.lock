@@ -16,16 +16,16 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (4.2.3):
-    - SDWebImage/Core (= 4.2.3)
-  - SDWebImage/Core (4.2.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
   - Masonry
   - ReactiveObjC (~> 3.1.1)
-  - SDWebImage (~> 4.2.3)
+  - SDWebImage (~> 5.11.1)
   - YYModel (~> 1.0.4)
 
 SPEC REPOS:
@@ -40,9 +40,9 @@ SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 8bcba8509eef65f731d494756945288634629afe
+PODFILE CHECKSUM: 2e11fcd109b5df00ec8948f5f695222bb9138fa7
 
 COCOAPODS: 1.10.1
