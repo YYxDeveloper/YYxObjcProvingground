@@ -10,7 +10,7 @@ target 'YYxObjcProvingground' do
   pod 'ReactiveObjC', '~> 3.1.1'
   pod 'YYModel', '~> 1.0.4'
   pod 'Masonry'
-  pod 'SDWebImage', '~> 4.2.3'
+  pod 'SDWebImage', '~> 5.11.1'
 
 
 
@@ -21,7 +21,7 @@ target 'YYxObjcProvingground' do
     pod 'ReactiveObjC', '~> 3.1.1'
     pod 'YYModel', '~> 1.0.4'
     pod 'Masonry'
-    pod 'SDWebImage', '~> 4.2.3'
+    pod 'SDWebImage', '~> 5.11.1'
 
 
   end
@@ -32,7 +32,7 @@ target 'YYxObjcProvingground' do
     pod 'ReactiveObjC', '~> 3.1.1'
     pod 'YYModel', '~> 1.0.4'
     pod 'Masonry'
-    pod 'SDWebImage', '~> 4.2.3'
+    pod 'SDWebImage', '~> 5.11.1'
 
 
   end
